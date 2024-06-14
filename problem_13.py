@@ -105,3 +105,8 @@ num = [\
 53503534226472524250874054075591789781264330331690]
 
 print sum(num)
+total = sum(num)
+
+leading_10 = int(str(total)[:10])
+print(leading_10)
+
